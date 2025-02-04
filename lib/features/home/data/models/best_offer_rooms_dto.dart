@@ -4,7 +4,7 @@ import 'best_offer_rooms_overall_dto.dart';
 
 part 'best_offer_rooms_dto.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class BestOfferRoomsDTO {
   BestOfferRoomsOverallDTO? overall;
 

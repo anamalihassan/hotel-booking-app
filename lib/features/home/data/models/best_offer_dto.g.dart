@@ -27,6 +27,6 @@ Map<String, dynamic> _$BestOfferDTOToJson(BestOfferDTO instance) =>
       'simple-price-per-person': instance.simplePricePerPerson,
       'total': instance.total,
       'travel-price': instance.travelPrice,
-      'rooms': instance.rooms,
-      'travel-date': instance.travelDate,
+      'rooms': instance.rooms?.toJson(),
+      'travel-date': instance.travelDate?.toJson(),
     };

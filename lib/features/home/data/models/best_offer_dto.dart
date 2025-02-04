@@ -5,7 +5,7 @@ import 'best_offer_rooms_dto.dart';
 
 part 'best_offer_dto.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class BestOfferDTO {
   @JsonKey(name: "included-travel-discount")
   int? includedTravelDiscount;

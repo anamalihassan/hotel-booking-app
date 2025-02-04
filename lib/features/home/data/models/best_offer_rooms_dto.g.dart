@@ -16,5 +16,5 @@ BestOfferRoomsDTO _$BestOfferRoomsDTOFromJson(Map<String, dynamic> json) =>
 
 Map<String, dynamic> _$BestOfferRoomsDTOToJson(BestOfferRoomsDTO instance) =>
     <String, dynamic>{
-      'overall': instance.overall,
+      'overall': instance.overall?.toJson(),
     };
