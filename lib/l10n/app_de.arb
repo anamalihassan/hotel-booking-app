@@ -1,0 +1,20 @@
+{
+  "home": "Überblick",
+  "search": "Suche",
+  "favourite": "Favoriten",
+  "account": "Konto",
+  "toTheOffers": "Zu den Angeboten",
+  "toHotel": "Zum Hotel",
+  "hotels": "Hotels",
+  "hotelsFor": "Hotels für",
+  "nights": "Nächte",
+  "days": "Tage",
+  "adults": "Erw.",
+  "children": "Kinder",
+  "includingBreakfast": "inkl. Flug",
+  "from": "Ab",
+  "failureTitle": "Etwas ist schief gelaufen",
+  "tryAgainMessage": "Bitte versuchen Sie es erneut.",
+  "noDataFound": "Keine Daten gefunden.",
+  "dbNotInitialized": "DB ist nicht initialisiert."
+}
